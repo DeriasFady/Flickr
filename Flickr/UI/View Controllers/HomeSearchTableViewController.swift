@@ -119,6 +119,7 @@ class HomeSearchTableViewController: UITableViewController, UISearchBarDelegate,
     
     private func setupTableView() {
         self.tableView.tableFooterView = UIView()
+        self.tableView.keyboardDismissMode = .onDrag
         self.registerTableViewCells()
     }
     
